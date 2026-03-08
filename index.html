@@ -1,54 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Andrea Marchant Portfolio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrea Marchant | UX Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio of Andrea Marchant, a Graphic Information Technology (UX) student focused on visual design, storytelling, information architecture, and digital experiences."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
 
-<header>
-<h1>Andrea Marchant</h1>
-<p>UX / UI Designer | ASU GIT-UX</p>
-</header>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="logo">Andrea Marchant</a>
 
-<section class="intro">
-<p>I design visual and digital experiences that make complex information engaging and accessible.</p>
-</section>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<section class="projects">
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">UX / UI Design Student • ASU GIT-UX</p>
+          <h1>
+            I design visual and digital experiences that make information
+            engaging, clear, and meaningful.
+          </h1>
+          <p class="hero-text">
+            I'm Andrea Marchant, a Graphic Information Technology student at
+            Arizona State University with a background in web design, print
+            design, interactive storytelling, and information-rich visual
+            projects.
+          </p>
 
-<h2>Projects</h2>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+          </div>
+        </div>
 
-<div class="project-grid">
+        <aside class="hero-panel" aria-label="Portfolio summary">
+          <div class="panel-card">
+            <p class="panel-label">Focus Areas</p>
+            <ul class="panel-list">
+              <li>UX / UI foundations</li>
+              <li>Information architecture</li>
+              <li>Editorial & print design</li>
+              <li>Interactive storytelling</li>
+              <li>Front-end portfolio development</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-<a href="projects/engineering.html" class="project">
-<img src="images/engineering.jpg">
-<h3>Engineering Company Website</h3>
-</a>
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Selected Work</p>
+          <h2>Projects</h2>
+          <p class="section-text">
+            A mix of web, editorial, interactive, and information design work
+            that shows how I approach real audiences, content structure, and
+            visual communication.
+          </p>
+        </div>
 
-<a href="projects/seekfind.html" class="project">
-<img src="images/seekfind.jpg">
-<h3>Children's Seek & Find Book</h3>
-</a>
+        <div class="project-grid">
+          <a class="project-card project-card-large" href="projects/engineering.html">
+            <img src="images/engineering.jpg" alt="Preview of engineering company website project" />
+            <div class="project-content">
+              <p class="project-type">Web Design / UX</p>
+              <h3>Engineering Company Website</h3>
+              <p>
+                Designed a website for an engineering company to organize
+                technical services clearly and professionally for potential
+                clients.
+              </p>
+            </div>
+          </a>
 
-<a href="projects/cookbook.html" class="project">
-<img src="images/cookbook.jpg">
-<h3>Community Cookbook</h3>
-</a>
+          <a class="project-card" href="projects/seekfind-christmas.html">
+            <img src="images/seekfind-christmas.jpg" alt="Preview of Christmas seek and find book" />
+            <div class="project-content">
+              <p class="project-type">Interactive Storytelling</p>
+              <h3>Children’s Seek & Find Book</h3>
+              <p>
+                Created illustrated storybook experiences with narrative,
+                characters, and visual search interaction for children.
+              </p>
+            </div>
+          </a>
 
-<a href="projects/calendar.html" class="project">
-<img src="images/calendar.jpg">
-<h3>Family Calendar Design</h3>
-</a>
+          <a class="project-card" href="projects/cookbook.html">
+            <img src="images/cookbook.jpg" alt="Preview of community cookbook design" />
+            <div class="project-content">
+              <p class="project-type">Editorial / Information Design</p>
+              <h3>Community Cookbook</h3>
+              <p>
+                Organized recipes, photos, and contributor content into a
+                structured and readable print experience.
+              </p>
+            </div>
+          </a>
 
-</div>
+          <a class="project-card" href="projects/calendar.html">
+            <img src="images/calendar.jpg" alt="Preview of family calendar design" />
+            <div class="project-content">
+              <p class="project-type">Information Design</p>
+              <h3>Family Calendar</h3>
+              <p>
+                Built a repeatable multi-page layout system for events,
+                birthdays, photos, and family contact information.
+              </p>
+            </div>
+          </a>
 
-</section>
+          <a class="project-card" href="projects/reunion-website.html">
+            <img src="images/reunion-website.jpg" alt="Preview of family reunion website" />
+            <div class="project-content">
+              <p class="project-type">Event Website</p>
+              <h3>Family Reunion Website</h3>
+              <p>
+                Organized event details, schedules, and updates into a clear and
+                engaging website for a multi-user audience.
+              </p>
+            </div>
+          </a>
 
+          <a class="project-card" href="projects/brochures.html">
+            <img src="images/brochure.jpg" alt="Preview of family reunion brochure design" />
+            <div class="project-content">
+              <p class="project-type">Print / Visual Communication</p>
+              <h3>Reunion Brochure Design</h3>
+              <p>
+                Designed printed materials that balanced storytelling, event
+                information, and visual hierarchy.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container about-grid">
+        <div>
+          <p class="section-label">About</p>
+          <h2>A visual designer growing into UX.</h2>
+        </div>
+
+        <div>
+          <p>
+            I’m currently studying Graphic Information Technology with a UX
+            focus at Arizona State University. My work often blends visual
+            storytelling, layout systems, information organization, and
+            audience-centered communication.
+          </p>
+          <p>
+            I’m especially interested in designing experiences related to
+            learning, children, creativity, and future AI-supported educational
+            tools.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Skills</p>
+          <h2>Design strengths and tools</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Design</h3>
+            <ul>
+              <li>Visual hierarchy</li>
+              <li>Information architecture</li>
+              <li>Editorial layout</li>
+              <li>Typography</li>
+              <li>Illustration</li>
+              <li>Interactive storytelling</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <ul>
+              <li>Adobe Illustrator</li>
+              <li>Canva</li>
+              <li>HTML / CSS</li>
+              <li>GitHub</li>
+              <li>Visual Studio Code</li>
+              <li>Microsoft Office / Google Workspace</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>What I bring</h3>
+            <ul>
+              <li>Strong visual creativity</li>
+              <li>Attention to detail</li>
+              <li>Fast learning</li>
+              <li>Communication and organization</li>
+              <li>Real-world project experience</li>
+              <li>Design across print and digital</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-card">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>Let’s connect.</h2>
+          <p>
+            I’m currently looking for internship and entry-level opportunities
+            where I can grow in UX, UI, and digital product design.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:youremail@example.com">youremail@example.com</a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
-
 </html>
