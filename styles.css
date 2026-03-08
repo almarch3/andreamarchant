@@ -416,40 +416,40 @@ ul {
 }
 
 @media (max-width: 720px) {
-  .nav {
+.nav {
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem 0;
-  }
+}
 
-  .nav-links {
+.nav-links {
     gap: 0.9rem;
-  }
+}
 
-  .hero {
+.hero {
     padding-top: 5.5rem;
-  }
+}
 
-  .section {
+.section {
     padding: 4.5rem 0;
-  }
+}
 
-  .hero-buttons,
-  .contact-links {
+.hero-buttons,
+.contact-links {
     flex-direction: column;
     align-items: stretch;
-  }
+}
 
-  .btn,
-  .contact-links a {
+.btn,
+.contact-links a {
     text-align: center;
-  }
+}
 
-  .contact-card {
+.contact-card {
     padding: 2rem 1.25rem;
-  }
-  
-  .project-card img {
+}
+
+.project-card img {
   width: 100%;
   height: 220px;
   object-fit: cover;
@@ -460,6 +460,12 @@ ul {
   overflow: hidden;
   text-decoration: none;
   color: inherit;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.project-card:cover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,.12);
 }
 
 .project-content {
