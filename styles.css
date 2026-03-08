@@ -448,4 +448,21 @@ ul {
   .contact-card {
     padding: 2rem 1.25rem;
   }
+  
+  .project-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+.project-card {
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-content {
+  padding: 1.4rem;
+}
 }
