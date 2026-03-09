@@ -255,12 +255,12 @@ ul {
 }
 
 
-/* Project cards */
+/* Project & Design grids */
 .project-grid,
 .design-grid,
 .skills-grid {
   display: grid;
-  gap: 1.4rem;
+  gap: 1.5rem;
 }
 
 .project-grid {
@@ -268,7 +268,7 @@ ul {
 }
 
 .design-grid {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minimax(0, 1fr));
 }
 
 .design-card img {
@@ -287,24 +287,41 @@ ul {
   box-shadow: var(--shadow);
 }
 
+.project-card,
 .design-card {
-  padding: 1.6rem;
-  transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.project-card {
-    padding: 0;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    transition: transform .25s ease, box-shadow .25s ease;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .project-card:hover,
 .design-card:hover {
   transform: translateY(-6px);
   border-color: #c7d2fe;
-  box-shadow: 0 20px 45px rgba(0,0,0,.12);
+  box-shadow: 0 18px 40px rgba(0,0,0,.14);
+}
+
+.project-media {
+    width: 100%;
+    aspect-ratio: 16/10;
+    overflow: hidden;
+    background: #e9eef7;
+}
+
+.design-card 
+.project-media {
+    aspect-ratio: 4/5;
+}
+
+.project-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .project-card img {
@@ -342,6 +359,17 @@ ul {
   display: flex;
   gap: .5rem;
   flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.45rem 0.8rem;
+    border-radius: 999px;
+    background: #eef2ff;
+    font-size: var(--accent-dark);
+    font-weight: 700;
 }
 
 /* About */
@@ -490,28 +518,5 @@ ul {
 
 .contact-card {
     padding: 2rem 1.25rem;
-}
-
-.project-card img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 16px 16px 0 0;
-}
-
-.project-card {
-  overflow: hidden;
-  text-decoration: none;
-  color: inherit;
-  transition: transform .25s ease, box-shadow .25s ease;
-}
-
-.project-card:cover {
-    transform: translateY(-6px);
-    box-shadow: 0 20px 40px rgba(0,0,0,.12);
-}
-
-.project-content {
-  padding: 1.4rem;
 }
 }
