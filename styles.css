@@ -268,7 +268,7 @@ ul {
 }
 
 .design-grid {
-  grid-template-columns: repeat(2, minimax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .design-card img {
@@ -324,12 +324,6 @@ ul {
     display: block;
 }
 
-.project-card img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-}
-
 .project-content {
     padding: 1.4rem;
 }
@@ -368,7 +362,7 @@ ul {
     padding: 0.45rem 0.8rem;
     border-radius: 999px;
     background: #eef2ff;
-    font-size: var(--accent-dark);
+    color: var(--accent-dark);
     font-weight: 700;
 }
 
