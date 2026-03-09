@@ -94,7 +94,8 @@ ul {
   padding: 80px 24px;
 
   background-image:
-    linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75));
+    linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)),
+    url("images/engineering-company-website.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
