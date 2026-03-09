@@ -92,10 +92,20 @@ ul {
   justify-content: center;
   text-align: center;
   padding: 80px 24px;
+
+  background-image:
+    linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-inner {
-  max-width: 760px;
+    background: rgba(255,255,255,0.85);
+    padding: 40px;
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+    max-width: 760px;
 }
 
 .hero-kicker {
