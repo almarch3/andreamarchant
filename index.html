@@ -6,7 +6,7 @@
   <title>Andrea Marchant | Portfolio</title>
   <meta
     name="description"
-    content="Portfolio of Andrea Marchant, ASU Graphic Information Technology (UX) student, visual designer, and emerging UX professional."
+    content="Portfolio of Andrea Marchant, ASU Graphic Information Technology (UX) student and visual designer growing into UX."
   />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,366 +14,226 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="container nav">
-      <a href="#top" class="logo">Andrea Marchant</a>
+    <div class="header-inner">
+      <a href="#" class="site-brand">
+        Andrea Marchant | Graphic Information Technology (UX) | Arizona State University | Dec 2027
+      </a>
 
-      <nav class="nav-links">
-        <a href="#projects">Projects</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#projects" class="nav-pill active">Projects</a>
         <a href="#visual-design">Visual Design</a>
-        <a href="#about">About</a>
         <a href="#skills">Skills</a>
+        <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="container hero-content">
-        <div class="hero-text">
-          <p class="eyebrow">ASU Graphic Information Technology (UX) Student</p>
-          <h1>Visual designer growing into UX.</h1>
-          <p class="hero-description">
-            I'm Andrea Marchant, a Graphic Information Technology student at Arizona State University
-            focused on creating thoughtful, polished, and people-centered digital and visual experiences.
-            My work blends design, communication, and creativity across web, branding, layout, and visual storytelling.
-          </p>
+  <main>
+    <section class="hero-featured">
+      <div class="hero-inner">
+        <p class="hero-kicker">Featured Project</p>
+        <h1>Engineering Company Website</h1>
+        <p class="hero-subtext">
+          A clean, professional website concept focused on structure, service clarity,
+          credibility, and polished visual presentation.
+        </p>
+      </div>
+    </section>
 
-          <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">View My Work</a>
-            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+    <section id="projects" class="gallery-section">
+      <div class="section-header">
+        <h2>Project Gallery</h2>
+        <p>Selected web, editorial, and visual design projects.</p>
+      </div>
+
+      <div class="project-grid">
+        <a href="projects/engineering.html" class="project-card">
+          <div class="project-image-wrap">
+            <img src="images/engineering-website.jpg" alt="Engineering Company Website preview" />
           </div>
-        </div>
-
-        <div class="hero-card">
-          <div class="hero-card-inner">
-            <p class="hero-card-label">Current Focus</p>
-            <h2>Designing with clarity, creativity, and growth in mind.</h2>
+          <div class="project-body">
+            <h3>Engineering Company Website</h3>
             <p>
-              Building a portfolio that reflects both strong visual design foundations and a growing UX mindset.
+              A professional website concept designed to communicate trust,
+              services, and clarity through a structured digital experience.
             </p>
           </div>
-        </div>
-      </div>
-    </section>
+        </a>
 
-    <section class="featured-project">
-        <div class="container featured-grid">
-
-            <div class="featured-image">
-                <img src="images/engineering-company-website.jpg" alt="Engineering Company Homepage">
-            </div>
-
-            <div class="featured-text">
-                <p class="section-label">Featured Case Study</p>
-
-                <h2>Engineering Company Website</h2>
-
-                <p>
-                    A professional website concept designed to communicate credibility,
-                    clarity, and structure for a modern engineering firm. The project
-                    focused on visual hierarchy, service clarity, and user-friendly navigation.
-                </p>
-
-                <a href="projects/engineering.html" class="btn btn-primary">
-                    View Case Study
-                </a>
-
-            </div>
-
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="container showcase-shell">
-        <div class="section-heading">
-          <p class="section-label">Featured Projects</p>
-          <h2>Selected work in web, print, and creative communication</h2>
-          <p>
-            A collection of projects that demonstrate design thinking, layout skills, storytelling,
-            and digital content creation across different formats.
-          </p>
-        </div>
-
-        <div class="project-grid">
-            <a href="projects/engineering.html" class="project-card">
-                <div class="project-media">
-                    <img src="images/engineering-website.jpg" alt="Engineering company website design preview">
-                </div>
-
-                <div class="project-content">
-                    <div class="project-number">01</div>
-                    <h3>Engineering Company Website</h3>
-                    <p>
-                        A professional website concept focused on clear structure, credibility, 
-                        and organized presentation of services for an engineering-related audience.
-                    </p>
-                    <div class="tag-group">
-                        <span class="tag">Web Design</span>
-                        <span class="tag">UX Thinking</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="projects/seek-find.html" class="project-card">
-                <div class="project-media">
-                    <img src="images/seek-find-book.jpg" alt="Children seek and find book design">
-                </div>
-
-                <div class="project-content">
-                    <div class="project-number">02</div>
-                    <h3>Children's Seek &amp; Find Book</h3>
-                    <p>
-                        A playful and visually engaging children's project centered on illustration, layout,
-                        and designing for a young audience with clarity and fun in mind.
-                    </p>
-                    <div class="tag-group">
-                        <span class="tag">Visual Storytelling</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="projects/cookbook.html" class="project-card">
-                <div class="project-media">
-                    <img src="images/community-cookbook.jpg" alt="Community cookbook design">
-                </div>
-
-                <div class="project-content">
-                    <div class="project-number">03</div>
-                    <h3>Community Cookbook</h3>
-                    <p>
-                        A collaborative publication project combining typography, page layout, and visual
-                        consistency to create an inviting, readable cookbook experience.
-                    </p>
-                    <div class="tag-group">
-                        <span class="tag">Editorial Design</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="projects/calendar.html" class="project-card">
-                <div class="project-media">
-                    <img src="images/family-calendar-front.jpg" alt="Family calendar design">
-                </div>
-
-                <div class="project-content">
-                    <div class="project-number">04</div>
-                    <h3>Family Calendar</h3>
-                    <p>
-                        A practical design project focused on organization, usability, and clean information
-                        hierarchy for everyday family planning and scheduling.
-                    </p>
-                    <div class="tag-group">
-                        <span class="tag">Layout Design</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="projects/reunion-website.html" class="project-card">
-                <div class="project-media">
-                    <img src="images/reunion-website.jpeg" alt="Family reunion website design">
-                </div>
-
-                <div class="project-content">
-                    <div class="project-number">05</div>
-                    <h3>Family Reunion Website</h3>
-                    <p>
-                        A website created to communicate event details, build excitement, and provide a
-                        welcoming digital space for family members preparing for a reunion.
-                    </p>
-                    <div class="tag-group">
-                        <span class="tag">Website Design</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="projects/brochure.html" class="project-card">
-                <div class="project-media">
-                    <img src="images/reunion-brochure.jpg" alt="Family reunion brochure design">
-                </div>
-
-                <div class="project-content">
-                    <div class="project-number">06</div>
-                    <h3>Reunion Brochure Design</h3>
-                    <p>
-                        A companion print design piece developed to support event communication through strong
-                        layout, branding consistency, and visual accessibility.
-                    </p>
-                    <div class="tag-group">
-                        <span class="tag">Print Design</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="projects/eopm.html" class="project-card">
-                <div class="project-media">
-                    <img src="images/eopm-website-concept.jpeg" alt="EOPM Villain dating website">
-                </div>
-
-                <div class="project-content">
-                    <div class="project-number">09</div>
-                    <h3>E.O.P.M. Website Concept</h3>
-                    <p>
-                        A creative web concept exploring visual identity, structure, and digital presentation
-                        through a custom website experience.
-                    </p>
-                    <div class="tag-group">
-                        <span class="tag">Creative Web Project</span>
-                    </div>
-                </div>
-            </a>
-        </div>
-      </div>
-    </section>
-
-    <section id="visual-design" class="section alt-section">
-      <div class="container showcase-shell">
-        <div class="section-heading">
-          <p class="section-label">Additional Visual Design</p>
-          <h2>Poster and branding-focused creative work</h2>
-          <p>
-            These projects highlight my interest in concept development, visual communication,
-            illustration, and designing with strong emotional or thematic impact.
-          </p>
-        </div>
-
-        <div class="design-grid">
-          <a href="projects/muunto.html" class="design-card">
-            <div class="project-media">
-                <img src="images/muunto-launch-poster.jpg" alt="AI tutoring company launch design poster">
-            </div>
-
-            <div class="project-content">
-                <div class="project-number">07</div>
-                <h3>Muunto Launch Poster</h3>
-                <p>
-                    A poster concept developed around branding, atmosphere, and visual storytelling for
-                    a bold, meaningful launch moment.
-                </p>
-                <div class="tag-group">
-                    <span class="tag">Adobe Illustrator</span>
-                </div>
-            </div>
-          </a>
-
-          <a href="projects/ai-poster.html" class="design-card">
-            <div class="project-media">
-                <img src="images/ai-computer-science-poster.jpg" alt="AI computer science design poster">
-            </div>
-
-            <div class="project-content">
-                <div class="project-number">08</div>
-                <h3>AI &amp; Computer Science Poster</h3>
-                <p>
-                A visual design project combining typography, illustration, and composition to promote
-                an academic or innovation-focused event.
-                </p>
-                <div class="tag-group">
-                    <span class="tag">Poster Design</span>
-                </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container about-grid">
-        <div>
-          <p class="section-label">About Me</p>
-          <h2>Designing with intention while growing into UX</h2>
-        </div>
-
-        <div class="about-text">
-          <p>
-            I'm Andrea Marchant, an Arizona State University Graphic Information Technology student
-            with a focus in UX. My background is rooted in visual design, where I enjoy creating
-            polished layouts, engaging digital experiences, and work that communicates clearly.
-          </p>
-          <p>
-            As I continue building my skills, I'm especially interested in the intersection of
-            visual design and user experience — creating work that is not only attractive, but also
-            useful, thoughtful, and audience-centered.
-          </p>
-          <p>
-            This portfolio reflects projects across web design, print design, creative storytelling,
-            and visual communication as I grow into a stronger UX designer and digital creative.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="section alt-section">
-      <div class="container showcase-shell">
-        <div class="section-heading">
-          <p class="section-label">Skills &amp; Tools</p>
-          <h2>Creative and Technical Foundations</h2>
-        </div>
-
-        <div class="skills-grid">
-          <div class="skill-box">
-            <h3>Design</h3>
-            <ul>
-              <li>Visual Design</li>
-              <li>Typography</li>
-              <li>Layout &amp; Composition</li>
-              <li>Poster Design</li>
-              <li>Branding Concepts</li>
-            </ul>
+        <a href="projects/seek-find.html" class="project-card">
+          <div class="project-image-wrap">
+            <img src="images/seek-find-book.jpg" alt="Children's Seek and Find Book preview" />
           </div>
-
-          <div class="skill-box">
-            <h3>Web &amp; UX Growth</h3>
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Responsive Design</li>
-              <li>Website Structure</li>
-              <li>User-Centered Thinking</li>
-              <li>Portfolio Development</li>
-            </ul>
+          <div class="project-body">
+            <h3>Children’s Seek &amp; Find Book</h3>
+            <p>
+              A playful visual storytelling project focused on illustration,
+              layout, and engagement for a young audience.
+            </p>
           </div>
+        </a>
 
-          <div class="skill-box">
-            <h3>Tools</h3>
-            <ul>
-              <li>Adobe Illustrator</li>
-              <li>Adobe Photoshop</li>
-              <li>Canva</li>
-              <li>HTML/CSS</li>
-              <li>GitHub</li>
-              <li>Visual Studio Code</li>
-            </ul>
+        <a href="projects/cookbook.html" class="project-card">
+          <div class="project-image-wrap">
+            <img src="images/community-cookbook.jpg" alt="Community Cookbook preview" />
           </div>
+          <div class="project-body">
+            <h3>Community Cookbook</h3>
+            <p>
+              An editorial design project centered on typography, consistency,
+              and inviting page composition.
+            </p>
+          </div>
+        </a>
 
-        </div>
+        <a href="projects/calendar.html" class="project-card">
+          <div class="project-image-wrap">
+            <img src="images/family-calendar-front.jpg" alt="Family Calendar preview" />
+          </div>
+          <div class="project-body">
+            <h3>Family Calendar</h3>
+            <p>
+              A practical layout project focused on organization, readability,
+              and hierarchy for everyday use.
+            </p>
+          </div>
+        </a>
+
+        <a href="projects/reunion-website.html" class="project-card">
+          <div class="project-image-wrap">
+            <img src="images/reunion-website.jpeg" alt="Family Reunion Website preview" />
+          </div>
+          <div class="project-body">
+            <h3>Family Reunion Website</h3>
+            <p>
+              A warm, informative event website created to communicate details,
+              build excitement, and support users clearly.
+            </p>
+          </div>
+        </a>
+
+        <a href="projects/brochure.html" class="project-card">
+          <div class="project-image-wrap">
+            <img src="images/reunion-brochure.jpg" alt="Reunion Brochure Design preview" />
+          </div>
+          <div class="project-body">
+            <h3>Reunion Brochure Design</h3>
+            <p>
+              A companion print piece designed to support event communication
+              through strong layout and polished visual structure.
+            </p>
+          </div>
+        </a>
       </div>
     </section>
 
-    <section id="contact" class="section contact-section">
-      <div class="container contact-card">
-        <p class="section-label">Contact</p>
-        <h2>Let's connect</h2>
+    <section id="visual-design" class="gallery-section visual-section">
+      <div class="section-header">
+        <h2>Visual Design</h2>
+        <p>Poster, branding, and creative concept work.</p>
+      </div>
+
+      <div class="project-grid">
+        <a href="projects/muunto.html" class="project-card">
+          <div class="project-image-wrap poster-wrap">
+            <img src="images/muunto-launch-poster.jpg" alt="Muunto Launch Poster preview" />
+          </div>
+          <div class="project-body">
+            <h3>Muunto Launch Poster</h3>
+            <p>
+              A concept-driven poster focused on atmosphere, emotion,
+              storytelling, and visual identity.
+            </p>
+          </div>
+        </a>
+
+        <a href="projects/ai-poster.html" class="project-card">
+          <div class="project-image-wrap poster-wrap">
+            <img src="images/ai-computer-science-poster.jpg" alt="AI and Computer Science Poster preview" />
+          </div>
+          <div class="project-body">
+            <h3>AI &amp; Computer Science Poster</h3>
+            <p>
+              A visual communication piece combining hierarchy, typography,
+              and illustration for an academic theme.
+            </p>
+          </div>
+        </a>
+
+        <a href="projects/eopm.html" class="project-card">
+          <div class="project-image-wrap">
+            <img src="images/eopm-website-concept.jpeg" alt="E.O.P.M. Website Concept preview" />
+          </div>
+          <div class="project-body">
+            <h3>E.O.P.M. Website Concept</h3>
+            <p>
+              A creative web concept exploring bold branding, structure,
+              and digital storytelling.
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="about-strip">
+      <div class="about-inner">
+        <h2>About</h2>
         <p>
-          I'm building my portfolio as a visual designer growing into UX and would love to connect
-          about internships, creative opportunities, or future design roles.
+          I’m Andrea Marchant, an Arizona State University Graphic Information Technology student
+          with a UX focus. My work is rooted in visual design, and I’m growing into UX through
+          projects that prioritize clarity, organization, and thoughtful user experience.
         </p>
-
-        <div class="contact-links">
-          <a href="mailto:almarch3@asu.edu">almarch3@asu.edu</a>
-          <a href="https://github.com/almarch3" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/yourusername/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-content">
-      <p>&copy; 2026 Andrea Marchant. All rights reserved.</p>
+  <footer id="contact" class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-column footer-contact">
+        <p class="footer-icon">in</p>
+        <a href="mailto:almarch3@asu.edu" class="footer-email">almarch3@asu.edu</a>
+      </div>
+
+      <div class="footer-column" id="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>Adobe Illustrator</li>
+          <li>Adobe Photoshop</li>
+          <li>Canva</li>
+          <li>HTML/CSS</li>
+          <li>GitHub</li>
+          <li>Visual Studio Code</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Experiences</h3>
+        <ul>
+          <li>Visual Design</li>
+          <li>Web Design</li>
+          <li>Editorial Layout</li>
+          <li>Typography</li>
+          <li>Branding Concepts</li>
+          <li>Portfolio Development</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Internships Interested In</h3>
+        <ul>
+          <li>UX Design</li>
+          <li>Graphic Design</li>
+          <li>Visual Design</li>
+          <li>Web Design</li>
+          <li>Creative Production</li>
+          <li>Content Design</li>
+        </ul>
+      </div>
     </div>
   </footer>
 </body>
