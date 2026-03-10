@@ -113,7 +113,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: var(--border);
+    background: var(--white);
     border-color: var(--border-dark);
     box-shadow: 0 4px 14px var(--text);
     transform: translateY(-1px);
@@ -121,7 +121,7 @@ nav ul li a:hover {
 
 nav ul li a.active,
 nav ul li a[aria-current="page"] {
-    background: var(--border);
+    background: var(--white);
     color: var(--dk-green);
     border-color: var(--border-dark);
     box-shadow: 0 4px 14px var(--text);
@@ -149,7 +149,7 @@ nav ul li a[aria-current="page"] {
   display: inline-block;
   margin-bottom: 1rem;
   padding: 0.35rem 0.7rem;
-  background: var(--border);
+  background: var(--white);
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
@@ -201,7 +201,7 @@ nav ul li a[aria-current="page"] {
 }
 
 .secondary-button {
-  background: var(--border);
+  background: var(--white);
   border: 1px solid var(--text);
 }
 
