@@ -269,8 +269,7 @@ nav ul li a[aria-current="page"] {
 /* Featured Project */
 .featured-project {
   padding: 1rem 0 1.5rem 0;
-  background: var(--bg);
-  border-top: 1px solid var(--muted);
+  background: var(--border);
 }
 
 .featured-card {
