@@ -67,7 +67,7 @@ ul {
 
 .brand {
   display: inline-block;
-  background: var(--border);
+  background: var(--white);
   padding: 0.35rem 0.75rem;
   font-family: "Montserrat", sans-serif;
   font-size: 0.95rem;
@@ -149,7 +149,7 @@ nav ul li a[aria-current="page"] {
   display: inline-block;
   margin-bottom: 1rem;
   padding: 0.35rem 0.7rem;
-  background: var(--white);
+  background: var(--dk-green);
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
