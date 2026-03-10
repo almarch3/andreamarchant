@@ -319,6 +319,47 @@ nav ul li a[aria-current="page"] {
   background: var(--dk-green);
 }
 
+/* Case Study Button Container */
+.case-study-actions {
+  margin-top: 0.8rem;
+}
+
+.cs-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 16px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+
+  color: var(--white);
+  background: var(--dk-green);
+
+  border-radius: 999px;
+  border: 1px solid var(--dk-green);
+
+  transition: 
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+
+  box-shadow: 0 3px 10px var(--shadow);
+}
+
+.cs-button:hover {
+  background: #163024;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px var(--shadow);
+}
+
+.cs-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
 /* Shared sections */
 .projects-section,
 .about-section,
