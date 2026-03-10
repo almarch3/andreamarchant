@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
     rel="stylesheet"
   />
   <link rel="stylesheet" href="styles.css" />
@@ -19,220 +19,190 @@
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <a href="#" class="site-brand">
-        Andrea Marchant | Graphic Information Technology (UX) | Arizona State University | Dec 2027
-      </a>
+      <a href="#top" class="brand">Andrea Marchant | Graphic Information Technology (UX) | Dec 2027</a>
 
-      <nav class="site-nav" aria-label="Main navigation">
-        <a href="#projects" class="nav-pill active">Projects</a>
-        <a href="#visual-design">Visual Design</a>
-        <a href="#skills">Skills</a>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="#projects" class="nav-pill">Project Gallery</a>
         <a href="#about">About</a>
+        <a href="#resume">Resume</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="hero-featured">
-      <div class="hero-inner">
-        <p class="hero-kicker">Featured Project</p>
-        <h1>Engineering Company Website</h1>
-        <p class="hero-subtext">
-          A clean, professional website concept focused on structure, service clarity,
-          credibility, and polished visual presentation.
-        </p>
+  <main id="top">
+    <section class="hero-section">
+      <div class="hero-grid">
+        <img
+          class="hero-panel"
+          src="https://placehold.co/600x420/e2e2e2/8a8a8a?text=%E2%9C%95"
+          alt="Portfolio preview placeholder"
+        />
+        <img
+          class="hero-panel"
+          src="https://placehold.co/600x420/e2e2e2/8a8a8a?text=%E2%9C%95"
+          alt="Portfolio preview placeholder"
+        />
+        <img
+          class="hero-panel"
+          src="https://placehold.co/600x420/e2e2e2/8a8a8a?text=%E2%9C%95"
+          alt="Portfolio preview placeholder"
+        />
+      </div>
+
+      <div class="hero-overlay-card">
+        <h1>Selected Projects</h1>
+        <p>Brief description of skills</p>
       </div>
     </section>
 
-    <section id="projects" class="gallery-section">
-      <div class="section-header">
+    <section id="projects" class="projects-section">
+      <div class="section-heading centered">
         <h2>Project Gallery</h2>
-        <p>Selected web, editorial, and visual design projects.</p>
       </div>
 
-      <div class="project-grid">
-        <a href="projects/engineering.html" class="project-card">
-          <div class="project-image-wrap">
-            <img src="images/engineering-company-website.jpg" alt="Engineering Company Website preview" />
-          </div>
-          <div class="project-body">
-            <h3>Engineering Company Website</h3>
-            <p>
-              A professional website concept designed to communicate trust,
-              services, and clarity through a structured digital experience.
-            </p>
-          </div>
-        </a>
+      <div class="projects-grid">
+        <div class="project-column">
+          <h3 class="category-title">Visual Design</h3>
 
-        <a href="projects/seek-find.html" class="project-card">
-          <div class="project-image-wrap">
-            <img src="images/seek-find-book.jpg" alt="Children's Seek and Find Book preview" />
-          </div>
-          <div class="project-body">
-            <h3>Children’s Seek &amp; Find Book</h3>
-            <p>
-              A playful visual storytelling project focused on illustration,
-              layout, and engagement for a young audience.
-            </p>
-          </div>
-        </a>
+          <article class="project-card">
+            <img
+              src="https://placehold.co/420x260/e2e2e2/8a8a8a?text=%E2%9C%95"
+              alt="Project 1 placeholder"
+              class="project-image"
+            />
+            <h4>Project 1</h4>
+            <p>Description of project and any other focus info.</p>
+          </article>
 
-        <a href="projects/cookbook.html" class="project-card">
-          <div class="project-image-wrap">
-            <img src="images/community-cookbook.jpg" alt="Community Cookbook preview" />
-          </div>
-          <div class="project-body">
-            <h3>Community Cookbook</h3>
-            <p>
-              An editorial design project centered on typography, consistency,
-              and inviting page composition.
-            </p>
-          </div>
-        </a>
+          <article class="project-card">
+            <img
+              src="https://placehold.co/420x260/e2e2e2/8a8a8a?text=%E2%9C%95"
+              alt="Project 2 placeholder"
+              class="project-image"
+            />
+            <h4>Project 2</h4>
+            <p>Description of project and any other focus info.</p>
+          </article>
+        </div>
 
-        <a href="projects/calendar.html" class="project-card">
-          <div class="project-image-wrap">
-            <img src="images/family-calendar-front.jpg" alt="Family Calendar preview" />
-          </div>
-          <div class="project-body">
-            <h3>Family Calendar</h3>
-            <p>
-              A practical layout project focused on organization, readability,
-              and hierarchy for everyday use.
-            </p>
-          </div>
-        </a>
+        <div class="project-column">
+          <h3 class="category-title">Layout &amp; Typography</h3>
 
-        <a href="projects/reunion-website.html" class="project-card">
-          <div class="project-image-wrap">
-            <img src="images/reunion-website.jpeg" alt="Family Reunion Website preview" />
-          </div>
-          <div class="project-body">
-            <h3>Family Reunion Website</h3>
-            <p>
-              A warm, informative event website created to communicate details,
-              build excitement, and support users clearly.
-            </p>
-          </div>
-        </a>
+          <article class="project-card">
+            <img
+              src="https://placehold.co/420x260/e2e2e2/8a8a8a?text=%E2%9C%95"
+              alt="Project 1 placeholder"
+              class="project-image"
+            />
+            <h4>Project 1</h4>
+            <p>Description of project and any other focus info.</p>
+          </article>
 
-        <a href="projects/brochure.html" class="project-card">
-          <div class="project-image-wrap">
-            <img src="images/reunion-brochure.jpg" alt="Reunion Brochure Design preview" />
-          </div>
-          <div class="project-body">
-            <h3>Reunion Brochure Design</h3>
-            <p>
-              A companion print piece designed to support event communication
-              through strong layout and polished visual structure.
-            </p>
-          </div>
-        </a>
+          <article class="project-card">
+            <img
+              src="https://placehold.co/420x260/e2e2e2/8a8a8a?text=%E2%9C%95"
+              alt="Project 2 placeholder"
+              class="project-image"
+            />
+            <h4>Project 2</h4>
+            <p>Description of project and any other focus info.</p>
+          </article>
+        </div>
+
+        <div class="project-column">
+          <h3 class="category-title">Digital Thinking</h3>
+
+          <article class="project-card">
+            <img
+              src="https://placehold.co/420x260/e2e2e2/8a8a8a?text=%E2%9C%95"
+              alt="Project 1 placeholder"
+              class="project-image"
+            />
+            <h4>Project 1</h4>
+            <p>Description of project and any other focus info.</p>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="https://placehold.co/420x260/e2e2e2/8a8a8a?text=%E2%9C%95"
+              alt="Project 2 placeholder"
+              class="project-image"
+            />
+            <h4>Project 2</h4>
+            <p>Description of project and any other focus info.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="visual-design" class="gallery-section visual-section">
-      <div class="section-header">
-        <h2>Visual Design</h2>
-        <p>Poster, branding, and creative concept work.</p>
-      </div>
+    <section id="about" class="about-section">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Quick snapshot of my experience, skills, and educational background.
+            Think elevator speech for recruiters with a concise overview of who I am,
+            what I design, and the kind of opportunities I am seeking.
+          </p>
 
-      <div class="project-grid">
-        <a href="projects/muunto.html" class="project-card">
-          <div class="project-image-wrap poster-wrap">
-            <img src="images/muunto-launch-poster.jpg" alt="Muunto Launch Poster preview" />
-          </div>
-          <div class="project-body">
-            <h3>Muunto Launch Poster</h3>
-            <p>
-              A concept-driven poster focused on atmosphere, emotion,
-              storytelling, and visual identity.
-            </p>
-          </div>
-        </a>
+          <a id="resume" href="#" class="resume-link">Link to Resume</a>
+        </div>
 
-        <a href="projects/ai-poster.html" class="project-card">
-          <div class="project-image-wrap poster-wrap">
-            <img src="images/ai-computer-science-poster.jpg" alt="AI and Computer Science Poster preview" />
-          </div>
-          <div class="project-body">
-            <h3>AI &amp; Computer Science Poster</h3>
-            <p>
-              A visual communication piece combining hierarchy, typography,
-              and illustration for an academic theme.
-            </p>
-          </div>
-        </a>
-
-        <a href="projects/eopm.html" class="project-card">
-          <div class="project-image-wrap">
-            <img src="images/eopm-website-concept.jpeg" alt="E.O.P.M. Website Concept preview" />
-          </div>
-          <div class="project-body">
-            <h3>E.O.P.M. Website Concept</h3>
-            <p>
-              A creative web concept exploring bold branding, structure,
-              and digital storytelling.
-            </p>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <section id="about" class="about-strip">
-      <div class="about-inner">
-        <h2>About</h2>
-        <p>
-          I’m Andrea Marchant, an Arizona State University Graphic Information Technology student
-          with a UX focus. My work is rooted in visual design, and I’m growing into UX through
-          projects that prioritize clarity, organization, and thoughtful user experience.
-        </p>
+        <div class="about-visual">
+          <img
+            src="https://placehold.co/320x320/e2e2e2/8a8a8a?text=%E2%9C%95"
+            alt="Portrait placeholder"
+            class="ellipse-placeholder"
+          />
+        </div>
       </div>
     </section>
   </main>
 
   <footer id="contact" class="site-footer">
     <div class="footer-grid">
-      <div class="footer-column footer-contact">
-        <p class="footer-icon">in</p>
-        <a href="mailto:almarch3@asu.edu" class="footer-email">almarch3@asu.edu</a>
+      <div class="footer-column contact-column">
+        <div class="linkedin-icon">in</div>
+        <a href="mailto:almarch3@asu.edu" class="email-box">EMAIL ME HERE</a>
       </div>
 
-      <div class="footer-column" id="skills">
+      <div class="footer-column">
         <h3>Tools</h3>
         <ul>
-            <li>Figma</li>
-            <li>Adobe Illustrator</li>
-            <li>Adobe Photoshop</li>
-            <li>Canva</li>
-            <li>HTML/CSS</li>
-            <li>GitHub</li>
-            <li>Visual Studio Code</li>
+          <li>Figma</li>
+          <li>Adobe Illustrator</li>
+          <li>Adobe Photoshop</li>
+          <li>HTML/CSS</li>
+          <li>GitHub</li>
+          <li>Visual Studio Code</li>
+          <li>Canva</li>
         </ul>
       </div>
 
       <div class="footer-column">
         <h3>Skills</h3>
         <ul>
-          <li>Visual Design</li>
-          <li>Web Design</li>
-          <li>Editorial Layout</li>
-          <li>Typography</li>
-          <li>Branding Concepts</li>
-          <li>Portfolio Development</li>
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          <li>Skill 3</li>
+          <li>Skill 4</li>
+          <li>Skill 5</li>
+          <li>Skill 6</li>
+          <li>Skill 7</li>
         </ul>
       </div>
 
       <div class="footer-column">
-        <h3>Internships Interested In</h3>
+        <h3>Interested In</h3>
         <ul>
-          <li>UX Design</li>
-          <li>Graphic Design</li>
-          <li>Visual Design</li>
-          <li>Web Design</li>
-          <li>Creative Production</li>
-          <li>Content Design</li>
+          <li>Option 1</li>
+          <li>Option 2</li>
+          <li>Option 3</li>
+          <li>Option 4</li>
+          <li>Option 5</li>
+          <li>Option 6</li>
+          <li>Option 7</li>
         </ul>
       </div>
     </div>
