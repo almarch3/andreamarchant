@@ -6,6 +6,7 @@
   --muted: #4a4a4a;
   --border: #cfcfc9;
   --border-dark: #202220;
+  --shadow: rgba(0,0,0,0.15);
   --white: #ffffff;
   --max-width: 1200px;
   --radius: 10px;
@@ -115,7 +116,7 @@ nav ul li a {
 nav ul li a:hover {
     background: var(--white);
     border-color: var(--border-dark);
-    box-shadow: 0 4px 14px var(--text);
+    box-shadow: 0 4px 14px var(--shadow);
     transform: translateY(-1px);
 }
 
@@ -124,7 +125,7 @@ nav ul li a[aria-current="page"] {
     background: var(--white);
     color: var(--dk-green);
     border-color: var(--border-dark);
-    box-shadow: 0 4px 14px var(--text);
+    box-shadow: 0 4px 14px var(--shadow);
 }
 
 /* Hero */
@@ -217,7 +218,7 @@ nav ul li a[aria-current="page"] {
   border-radius: 18px;
   overflow: hidden;
   background: var(--border);
-  box-shadow: 0 10px 30px var(--text);
+  box-shadow: 0 10px 30px var(--shadow);
 }
 
 .hero-image-frame img {
@@ -291,7 +292,7 @@ nav ul li a[aria-current="page"] {
   object-fit: cover;
   object-position: center top;
   border-radius: 10px;
-  box-shadow: 0 10px 25px var(--text);
+  box-shadow: 0 10px 25px var(--shadow);
 }
 
 .featured-content h3 {
