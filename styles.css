@@ -270,6 +270,7 @@ nav ul li a[aria-current="page"] {
 .featured-project {
   padding: 1.5rem 0 2rem 0;
   background: var(--bg);
+  border-top: 1px solid var(--muted);
 }
 
 .featured-card {
@@ -288,7 +289,13 @@ nav ul li a[aria-current="page"] {
 }
 
 .featured-content h3 {
-  margin-bottom: 1rem;
+    font-size: 1.3rem;
+    margin-bottom: 0.4rem;
+}
+
+.featured-content p {
+    font-size: 0.95rem;
+    line-height: 1.4;
 }
 
 .project-button {
