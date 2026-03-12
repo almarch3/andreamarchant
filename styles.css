@@ -894,3 +894,15 @@ nav ul li a[aria-current="page"] {
   padding: 6px 10px;
   border-radius: 6px;
 }
+
+.case-highlight{
+  background:#eef2ea;
+  padding:20px;
+  border-radius:12px;
+  margin:30px 0;
+}
+
+.case-outcomes{
+  margin-top:10px;
+  padding-left:18px;
+}
