@@ -906,3 +906,40 @@ nav ul li a[aria-current="page"] {
   margin-top:10px;
   padding-left:18px;
 }
+
+.case-content h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.45rem;
+  color: var(--text);
+}
+
+.case-content ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.case-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Keep section widths and spacing consistent */
+.case-section .decision-grid {
+  margin-top: 1.5rem;
+}
+
+/* Optional: make 3-card rows wrap more nicely on medium screens */
+@media (max-width: 900px) {
+  .decision-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .decision-grid {
+    grid-template-columns: 1fr;
+  }
+}
