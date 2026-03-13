@@ -867,8 +867,8 @@ nav ul li a[aria-current="page"] {
 .decision-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 1.5rem;
+  gap: 1.25rem;
+  align-items: stretch;
 }
 
 .decision-card {
@@ -902,13 +902,9 @@ nav ul li a[aria-current="page"] {
   opacity: 0.75;
 }
 
+
 @media (max-width: 900px) {
   .decision-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .case-image-grid.four-up,
-  .inspiration-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
