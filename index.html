@@ -23,7 +23,9 @@
 
       <nav class="main-nav" aria-label="Main Navigation">
         <ul>
-          <li><a href="#projects">Project Gallery</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ux.html">UX/Product Design</a></li>
+          <li><a href="gd.html">Graphic Design</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="projects/Andrea - UX Resume.pdf">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -54,7 +56,7 @@
 
         <div class="hero-visual">
           <div class="hero-image-frame">
-            <img src="images/muunto-launch-poster.jpg" alt="Muunto company launch poster design" />
+            <img src="images/muunto-launch-poster.jpg" alt="Muunto company launch poster design" class="zoomable" data-caption="Muunto Educational Brand Poster" />
           </div>
         </div>
       </div>
@@ -262,6 +264,13 @@
       </div>
     </div>
   </footer>
+
+  <div id="imageModal" class="image-modal" aria-hidden="true">
+  <span class="image-modal-close">&times;</span>
+  <img class="image-modal-content" id="modalImage" alt="">
+  <p class="image-modal-caption" id="modalCaption"></p>
+  
+</div>
 </body>
 
 </html>
