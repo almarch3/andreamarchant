@@ -1113,3 +1113,19 @@ nav ul li a[aria-current="page"] {
   font-size: 0.9rem;
   color: var(--muted);
 }
+
+.case-hero-image {
+  margin: 2rem 0 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.case-hero-image img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 16px;
+  border: 1px solid var(--border-dark);
+  box-shadow: 0 12px 30px var(--shadow);
+  object-fit: contain;
+  background: #0f1838;
+}
