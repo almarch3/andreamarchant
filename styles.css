@@ -1091,3 +1091,25 @@ nav ul li a[aria-current="page"] {
   }
 }
 
+.case-image-large {
+  margin-top: 1.5rem;
+}
+
+.case-image-large img {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  border-radius: 16px;
+  border: 1px solid var(--border-dark);
+  box-shadow: 0 10px 28px var(--shadow);
+  aspect-ratio: auto;
+  object-fit: contain;
+  background: #0f1838;
+}
+
+.case-image-large figcaption {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
